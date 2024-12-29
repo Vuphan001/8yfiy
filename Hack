@@ -1,0 +1,5 @@
+local args = {
+    [1] = 0.5
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Modules"):WaitForChild("Net"):WaitForChild("RE/RegisterAttack"):FireServer(unpack(args))
